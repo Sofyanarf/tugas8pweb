@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form Dengan JavaScript</title>
+    <link rel="stylesheet" href="pweb.css">
+</head>
+<body>
+<div class="container">
+    <form method="POST" onsubmit="return formulir()">
+        <h4> FORM </h4>
+        <label for="Nama">Nama : </label><br>
+        <input type="text" name="Nama" id="Nama" placeholder="Masukkan nama Anda">
+        <br><br>
+        <label for="Tanggal_lahir_Tahun">Tanggal lahir/Tahun : </label><br>
+        <input type="date" name="Tanggal_lahir_Tahun" id="Tanggal_lahir_Tahun">
+        <br><br>
+        <label for="Jenis_kelamin">Jenis Kelamin : </label><br>
+        <input type="radio" name="Jenis_kelamin" value="Laki-laki">Laki-laki
+        <input type="radio" name="Jenis_kelamin" value="Perempuan">Perempuan
+        <br><p>Asal Kota: </p>
+        <input type="text" name="alamat" id="alamat" placeholder="Masukkan asal kota Anda"><br><br>
+        <input type="submit" class="Submit" name="var4" value="Submit">
+        <input type="reset" class="Hapus" name="var5" value="Clear">
+    </form>
+</div>
+<script src="pweb.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+h4{
+    text-align: center;
+    font-weight: 300;
+}
+.container{
+    text-align: justify;
+    text-transform: uppercase;
+    width: 350px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+    
+}
+label{
+    font-size: 11pt;
+    text-align: left;
+}
+.FORM{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+.Submit{
+    background: #46de4b;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+.Hapus{
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+@media screen and(max-width: 500px){
+    .FORM{
+        flex-wrap: wrap;
+    }
+}
